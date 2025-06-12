@@ -1,4 +1,3 @@
-# Brainwave_Matrix_Intern
 # 📊 Electronics Sales Dashboard
 
 **Transforming sales data into business intelligence for a smarter retail operation.**  
