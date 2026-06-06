@@ -1,11 +1,11 @@
-# 📊 Electronics Sales Dashboard
+#  Electronics Sales Dashboard
 
 **Transforming sales data into business intelligence for a smarter retail operation.**  
 *Built using Python & Power BI*
 
 ---
 
-## 📌 Table of Contents
+##  Table of Contents
 
 1. [Project Overview](#project-overview)  
 2. [Business Problem](#business-problem)  
@@ -18,7 +18,7 @@
 
 ---
 
-## 🧾 Project Overview
+##  Project Overview
 
 This project focuses on the **retail electronics industry**, where transaction volumes are high, but meaningful insights are often buried beneath noise. The dataset used contains detailed information on thousands of electronic purchases — from smartphones to laptops and accessories.
 
@@ -32,25 +32,25 @@ The core goal of this project was to **unlock the value hidden in the sales data
 
 ---
 
-## ❗ Business Problem
+##  Business Problem
 
 Although sales were happening regularly, the business was facing several critical blind spots:
 
-- 💸 **Millions in potential revenue were being lost to order cancellations** without clear reasons  
-- 🧑‍🤝‍🧑 **Loyalty members weren’t spending more** than regular customers — was the program broken?  
-- 🚫 **Add-ons (high-margin items)** were underutilized, despite clear opportunities to bundle them  
-- 📉 No clear visibility into what **customer segments, shipping methods, or SKUs** were performing or underperforming
+-  **Millions in potential revenue were being lost to order cancellations** without clear reasons  
+-  **Loyalty members weren’t spending more** than regular customers — was the program broken?  
+-  **Add-ons (high-margin items)** were underutilized, despite clear opportunities to bundle them  
+-  No clear visibility into what **customer segments, shipping methods, or SKUs** were performing or underperforming
 
 > These challenges pointed to one big issue: **decisions were being made without data-driven clarity**. This project aimed to fix that.
 
 ---
 
-## ✅ Solution & Strategy
+##  Solution & Strategy
 
-### 🎯 The Plan  
+###  The Plan  
 To solve the business problem, I took a structured approach that combined **data engineering, business analytics, and visual storytelling**.
 
-### 🔧 Step 1: Data Cleaning & Feature Engineering (Python)
+###  Step 1: Data Cleaning & Feature Engineering (Python)
 Using Python and Pandas in Google Colab:
 - Removed duplicates, cleaned text inconsistencies (e.g., “Paypal” vs “PayPal”)
 - Filled missing values intelligently (e.g., "No Add-ons" where blank)
@@ -63,7 +63,7 @@ Using Python and Pandas in Google Colab:
 
 Exported the cleaned dataset as `cleaned_electronic_sales.csv`.
 
-### 📊 Step 2: Dashboard Development (Power BI)
+###  Step 2: Dashboard Development (Power BI)
 Using Power BI, I designed a 53-page dashboard to make the analysis accessible and actionable:
 1. **Executive Overview** – KPIs, revenue trends, product breakdown  
 2. **Customer Insights** – Age group analysis, loyalty impact, gender breakdown  
@@ -77,41 +77,41 @@ Created advanced DAX measures including:
 
 ---
 
-## 🔍 Key Insights
+##  Key Insights
 
 Here’s what the data revealed when we finally let it speak:
 
-### 1. 💥 Order Cancellations = ₦20.97M Lost
+### 1.  Order Cancellations = ₦20.97M Lost
 - **One-third** of all orders were cancelled — a massive hidden loss  
 - Smartphones had both the highest sales and the highest cancellations
 
-### 2. 👵 Older Customers (60+) Are Power Buyers
+### 2.  Older Customers (60+) Are Power Buyers
 - They contributed **₦13.6M in revenue**, the most of any age group  
 - Also purchased **the most add-ons**, signaling higher trust and loyalty
 
-### 3. ➕ Add-ons = 35% Higher Revenue Per Order
+### 3.  Add-ons = 35% Higher Revenue Per Order
 - **75% of completed orders** included an add-on  
 - Customers who bought add-ons consistently spent more
 
-### 4. ❌ Loyalty Program Underperformance
+### 4.  Loyalty Program Underperformance
 - Loyalty members **didn’t spend more** than non-members  
 - Suggests the program lacks meaningful incentives
 
-### 5. 🚚 Shipping Type Matters
+### 5.  Shipping Type Matters
 - **Standard shipping** orders were more likely to be cancelled  
 - **Express/same-day shipping** had much better completion rates
 
 ---
 
-## 📈 Results & Recommendations
+##  Results & Recommendations
 
-### 🌟 What This Dashboard Enables
+###  What This Dashboard Enables
 - Track and visualize revenue leakage from cancellations  
 - Identify and focus on high-value customers and products  
 - Spot and fix operational bottlenecks  
 - Guide product bundling, loyalty program changes, and shipping upgrades
 
-### ✅ Strategic Recommendations
+###  Strategic Recommendations
 
 1. **Revamp the Loyalty Program**
    - Introduce rewards, cashback, early access to sales
@@ -135,7 +135,7 @@ Here’s what the data revealed when we finally let it speak:
 
 ---
 
-## 🧠 Reflections & Learning
+##  Reflections & Learning
 
 This wasn’t just a data project, it was a business transformation exercise.
 
@@ -150,7 +150,7 @@ Here’s what I learned:
 
 ---
 
-## 🛠️ Tools Used
+##  Tools Used
 
 | Tool | Purpose |
 |------|---------|
@@ -162,7 +162,7 @@ Here’s what I learned:
 
 ---
 
-## 📁 Files in This Repository
+##  Files in This Repository
 
 | File | Description |
 |------|-------------|
@@ -172,7 +172,7 @@ Here’s what I learned:
 
 ---
 
-## 🤝 Connect or Collaborate
+##  Connect or Collaborate
 
 If you found this project insightful or want to collaborate, feel free to:
 - 🌟 Star the repo
